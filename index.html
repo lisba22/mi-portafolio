@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Web - Lisbaney Villamar</title>
+</head>
+<body>
+
+  <header>
+    <h1>Lisbaney Generosa Villamar Echeverría</h1>
+    <p><em>“Aprendiendo a crear mi propio futuro con código.”</em></p>
+    <img src="img/mi-foto.jpg" alt="Foto de Lisbaney Villamar" width="350" height="400">
+  </header>
+
+  <nav>
+    <a href="#sobremi">Sobre mí</a> |
+    <a href="#intereses">Intereses</a> |
+    <a href="#habilidades">Habilidades</a> |
+    <a href="#multimedia">Multimedia</a> |
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <hr>
+
+  <section id="sobremi">
+    <h2>Sobre mí</h2>
+    <p>Hola, soy <strong>Lisbaney Villamar</strong>, tengo <mark>23 años</mark> y vivo en <em>Tres Postes</em>. 
+    Estoy aprendiendo desarrollo web y este es mi primer portafolio en HTML5. 
+    Soy una persona creativa, curiosa y con muchas ganas de seguir mejorando.</p>
+  </section>
+
+  <hr>
+
+  <section id="intereses">
+    <h2>Mis intereses</h2>
+    <ul>
+      <li>💻 Aprender programación web</li>
+      <li>🎨 Diseñar páginas creativas</li>
+      <li>🎵 Escuchar música mientras estudio</li>
+      <li>📚 Leer sobre tecnología</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Lenguaje</th>
+          <th>Nivel</th>
+          <th>Experiencia (semanas)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML5</td>
+          <td>Principiante</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Principiante</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Principiante</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Estoy mejorando mis habilidades cada día.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="multimedia">
+    <h2>Mi presentación</h2>
+    <p><strong>Audio sobre mi:</strong></p>
+    <audio controls>
+      <source src="ad/audio.mp3">
+    </audio>
+  </section>
+
+  <hr>
+
+  <section id="contacto">
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="edad">Edad:</label><br>
+      <input type="number" id="edad" name="edad" min="1" max="99" required><br><br>
+
+      <label for="genero">Género:</label><br>
+      <select id="genero" name="genero" required>
+        <option value="">Seleccione</option>
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+        <option value="otro">Otro</option>
+      </select><br><br>
+
+      <label>Intereses:</label><br>
+      <input type="checkbox" id="html" name="interes" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="interes" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="js" name="interes" value="JavaScript">
+      <label for="js">JavaScript</label><br><br>
+
+      <label for="comentarios">Comentarios:</label><br>
+      <textarea id="comentarios" name="comentarios" rows="4" cols="30" required></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <hr>
+
+</body>
+<footer>
+    <p>© 2025 Lisbaney Villamar - Todos los derechos reservados.</p>
+    <p>Sígueme en:
+      <a href="https://github.com/lisba22" target="_blank">GitHub</a> |
+      <a href="https://www.facebook.com/profile.php?id=100092034054133" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </p>
+  </footer>
+</html>
